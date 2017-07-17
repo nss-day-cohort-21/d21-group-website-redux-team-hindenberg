@@ -15,7 +15,7 @@ cardobject.push(new cards("Air-O-Space", "images/jar4.png", "Lorem4 ipsum dolor 
 cardobject.push(new cards("Beach Air", "images/jar2.png", "Lorem5 ipsum dolor sitincididunqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  e eu fuupidatalit anim id est laborum.", 1000));
 cardobject.push(new cards("Espresso in the Air", "images/jar4.png", "Lorem6 ipsum dolor sitdo e ut labullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reest laborum.", 1100));
 cardobject.push(new cards("Margin of Air-r", "images/jar3.png", "Lorem7 ipsum docididunt ut labo ad minim ve commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit eest laborum.", 1200));
-cardobject.push(new cards("Share some Air", "images/mainjar.png", "Lorem8 ipsum dolididunaliquarudabohenderit ite velit esse cillum dolore eu fugiat nulla pariatur. Excepteurit ast laborum.", "All the monies"));
+cardobject.push(new cards("Share some Air", "images/mainjar.png", "Lorem8 ipsum dolididunal iquarudabohenderit ite velit esse cillum dolore eu fugiat nulla pariatur. Excepteurit ast laborum.", "All the monies"));
 
 //===============Printing Object to HTML=====================//
 
