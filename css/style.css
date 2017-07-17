@@ -133,7 +133,6 @@ nav a:active{
 
 .flex-footer li{
   list-style: none;
-  padding-top: 10px;
 }
 
 #fb-icon img{
@@ -141,8 +140,12 @@ nav a:active{
 }
 
 #copyright{
-  padding-top: 20px;
+  padding-top: 25px;
   font-size: 2em;
+}
+
+.footer-icon{
+  margin-top: 10px;
 }
 
 
