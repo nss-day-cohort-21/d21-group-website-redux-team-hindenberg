@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+div#awards-flex-main, div#awards-flex-aside {
+	background-color: #b2cfff;
+	animation-name: bluefade;
+	animation-duration: 5s;
+	animation-name: fadeback;
+	animation-duration: 5s;
+}
+
+	@keyframes bluefade {
+		from {background-color: #b2cfff}
+		to {background-color: #56ccf2}
+	}
+	@keyframes fadeback {
+		from {background-color: #56ccf2}
+		to {background-color: #b2cfff}
+	}
+
+
+</style>
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-		<nav>
+	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="history.html">Company History</a></li>
@@ -20,8 +40,38 @@
 		<h1>Air-O Jar</h1>
 	</header>
 
-
+	<div class="container">
 	
+		<div id="awards-flex-container">
+			<div id="awards-flex-main">
+				<main>
+			
+					<h3>Our Latest Awards</h3>
+					<img src="images/Trophy.png">
+					<ul class="awards-ul">
+						<li>Freshest Air - 2017</li>
+						<li>Lightest Shipping Weight - 2017</li>
+						<li>Lowest Overhead - 2017</li>
+						<li>Air - Head of the Year - 2017</li>
+					</ul>
+				</main>
+			</div>
+			
+			<div id="awards-flex-aside">
+				<aside>
+					<h4>Past Awards</h4>
+					<ul class="awards-ul">
+						<li class="awards-li"><a class="awards-a" href="#">2016</a></li>
+						<li class="awards-li"><a class="awards-a" href="#">2015</a></li>
+						<li class="awards-li"><a class="awards-a" href="#">2014</a></li>
+						<li class="awards-li"><a class="awards-a" href="#">2013</a></li>
+						<li class="awards-li"><a class="awards-a" href="#">2012</a></li>
+					</ul>
+
+				</aside>
+			</div>
+		</div>
+	</div>
 
 	<footer>
 		<ul>
