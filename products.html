@@ -2,37 +2,43 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Products</title>
+	<link href="https://fonts.googleapis.com/css?family=Rasa" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/products.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="history.html">Company History</a></li>
-			<li><a href="products.html">Products</a></li>
-			<li><a href="employees.html">Employees</a></li>
-			<li><a href="awards.html">Company Awards</a></li>
-		</ul>
-	</nav>
-	
 	<header>
-		<h1>Air-O Jar</h1>
+		<nav class="navigation">
+			<ul>
+				<li class="nav-logo"><a href="index.html"><img src="images/Air_O-logo.png" alt="Air_O Logo"></a></li>
+				<li class="nav-links"><a href="#history">Company History</a></li>
+				<li class="nav-links"><a href="products.html">Products</a></li>
+				<li class="nav-links"><a href="employees.html">Employees</a></li>
+				<li class="nav-links"><a href="awards.html">Company Awards</a></li>
+			</ul>
+		</nav>
 	</header>
-
-
+	
+	<div class="container">
+		<div id="cards">
+		</div>
+	</div>
 	
 
-	<footer>
-		<ul>
-			<li>&copy;2017</li>
-			<li><a href="#"><img src="#">Facebook</a></li>
-			<li><a href="#"><img src="#">Email</a></li>
-			<li><a href="#"><img src="#">Git Hub</a></li>
+	<footer class="footer-container">
+		<ul class="flex-footer">
+			<li id="copyright">©2017</li>
+			<li id="fb-icon"><a href="#"><img src="images/facebook.png" style="display: none !important;"></a></li>
+			<li><a href="#"><img src="images/envelope.png"></a></li>
+			<li><a href="#"><img src="images/GitHub-Mark-64px.png"></a></li>
 		</ul>		
 	</footer>
 
-	
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
 	<script type="text/javascript" src="javascript/scripts.js"></script>
 </body>
 </html>
