@@ -64,14 +64,16 @@ nav a:active{
 .flex-footer{
   display: flex;
   justify-content: space-around;
+  margin:0 200px;
 }
 
 .flex-footer li{
   list-style: none;
+  padding-top: 10px;
 }
 
 #fb-icon img{
-  height: 70px;
+  height: 80px;
 }
 
 #copyright{
@@ -86,20 +88,51 @@ nav a:active{
   display: table;
   padding-bottom: 50px;
   border-bottom: 1px solid slategray;
+  -webkit-box-shadow: inset 0px 0px 82px -7px rgba(0,0,0,0.53);
+  -moz-box-shadow: inset 0px 0px 82px -7px rgba(0,0,0,0.53);
+  box-shadow: inset 0px 0px 82px -7px rgba(0,0,0,0.53);
 }
 .hero-image{
-  background-image: url("../images/air-assortment.jpg");
-  background-size: 100%;
-  height: 500px;
+  background-image: url("../images/air-assortment.jpg"); 
+  background-size: 100%; 
+  height: 500px; 
   background-repeat: no-repeat;
   width:45%;
   float:left;
+  -webkit-box-shadow: inset 34px 32px 82px -37px rgba(0,0,0,0.53);
+  -moz-box-shadow: inset 34px 32px 82px -37px rgba(0,0,0,0.53);
+  box-shadow: inset 34px 32px 82px -37px rgba(0,0,0,0.53);
 }
 .hero-article{
   width: 45%;
   float:right;
   margin-right:40px;
   margin-top: 8%;
+}
+.buy-now{
+  text-align: center;
+  background-color: #8f5520;
+  padding: 10px;
+  color: white;
+  display: inline-block;
+}
+.buy-now a:visited{
+  text-decoration: none;
+  color: white;
+}
+.buy-now a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.buy-now a:hover{
+  color:white;
+  text-decoration: underline;
+}
+
+.buy-now a:active{
+  color: white;
+  text-decoration: underline;
 }
 
 .second-article{
@@ -115,7 +148,9 @@ nav a:active{
   background-size: 100%;
   height: 500px;
   background-position-y: -300px;
-   box-shadow: inset 0px 5px 5px #FFF; 
+  -webkit-box-shadow: inset 0px 0px 82px -7px rgba(0,0,0,0.53);
+  -moz-box-shadow: inset 0px 0px 82px -7px rgba(0,0,0,0.53);
+  box-shadow: inset 0px 0px 82px -7px rgba(0,0,0,0.53);
   margin: 0 auto;
 }
 #history{
@@ -124,7 +159,12 @@ nav a:active{
 }
 #history h2{
   text-align: center;
+}
 
+#history img{
+  float: right;
+  width:50%;
+  margin-left: 40px;
 }
 
 
