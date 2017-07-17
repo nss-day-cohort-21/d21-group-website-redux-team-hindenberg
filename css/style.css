@@ -1,0 +1,198 @@
+/* Main Logo Color
+
+Brown (hex-value): 8f5520
+
+*/
+
+
+
+/* FONT STYLES */
+body{
+  font-family: 'Rasa', serif;
+}
+
+
+/* NAVIGATION */
+.navigation{
+  border-bottom: 1px solid slategray;
+}
+
+.navigation ul{
+  display: flex;
+  justify-content: space-around;
+}
+.navigation li{
+  list-style: none;
+  margin: 0 30px;
+}
+.nav-links{
+  padding-top: 4px;
+  font-size: 1.3em;
+}
+
+.nav-logo{
+  margin-right: auto;
+}
+.nav-logo img{
+  width: 140px;
+}
+
+nav a:visited, a:link{
+  text-decoration: none;
+  color:#8f5520;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+nav a:active{
+    color:#8f5520;
+    text-decoration: underline;
+}
+
+
+/*  FOOTER */
+
+.footer-container{
+  background-color: #8f5520;
+  clear: both;
+  padding: 10px 0;
+}
+
+.flex-footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-footer li{
+  list-style: none;
+}
+
+#fb-icon img{
+  height: 70px;
+}
+
+#copyright{
+  padding-top: 20px;
+  font-size: 2em;
+}
+
+
+/* INDEX PAGE */
+.hero{
+  width: 100%;
+  display: table;
+  padding-bottom: 50px;
+  border-bottom: 1px solid slategray;
+}
+.hero-image{
+  background-image: url("../images/air-assortment.jpg");
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  width:45%;
+  float:left;
+}
+.hero-article{
+  width: 45%;
+  float:right;
+  margin-right:40px;
+  margin-top: 8%;
+}
+
+.second-article{
+  width: 75%;
+  margin: 10% auto;
+}
+.second-article h2{
+  text-align: center;
+}
+
+.hero2{
+  background-image: url("../images/jar-in-snow.jpg");
+  background-size: 100%;
+  height: 500px;
+  background-position-y: -300px;
+   box-shadow: inset 0px 5px 5px #FFF; 
+  margin: 0 auto;
+}
+#history{
+  width: 75%;
+  margin: 10% auto;
+}
+#history h2{
+  text-align: center;
+
+}
+
+
+
+/*****************************
+	EMPLOYEE PAGE STYLES
+*****************************/
+
+#employee-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	width: 100%;
+}
+
+#emp-header {
+	text-align: center;
+}
+
+#team-headline {
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+
+.employee-card {
+	width: 45%;
+	min-width: 275px;
+	margin: 1em;
+	height: 50%;
+	background-color: rgba(52, 73, 94, .8);
+	/*padding: 1em;*/
+	border: 1px solid black;
+	border-radius: 20px;
+	overflow: hidden;
+	color: whitesmoke;
+	box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.5);
+	flex-grow: 1;
+}
+
+.emp-img-div {
+	float: left;
+	width: 35%;
+	margin-right: .5em;
+}
+
+.employee-card h2 {
+	margin-top: .1em;
+	margin-bottom: 0em;
+	text-decoration: underline;
+
+}
+
+.emp-bio-div {
+}
+
+.employees-bio {
+	margin-top: .5em;
+	margin-bottom: .5em;
+	padding-left: .5em;
+}
+
+.employee-card img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+/*****************************
+	END EMPLOYEE PAGE STYLES
+*****************************/
