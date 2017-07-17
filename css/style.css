@@ -5,10 +5,11 @@ h1 {
 img#trophy {
 	width: 10%;
 	float: left;
-	padding: 1em;
-	animation: trophy-spin 5s ease 1;
+  padding-top: .3em;
+  padding-left: .5em;
+	/*animation: trophy-spin 5s ease 1;*/
 }
-@keyframes trophy-spin { 100% { transform:rotate(360deg); } }
+/*@keyframes trophy-spin { 100% { transform:rotate(360deg); } }*/
 
 
 /****************Awards Flexbox Styling****************/
